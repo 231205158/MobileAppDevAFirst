@@ -5,17 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000080"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Spectra\nof\nNova"
-        android:textSize="200px"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:textColor="#ffffaa"
+        android:text="Koki"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

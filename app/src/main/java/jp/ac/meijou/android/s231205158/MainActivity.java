@@ -46,7 +46,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         prefDataStore.getString("name").ifPresent(name -> binding.text.setText(name));
-
     }
-
 }

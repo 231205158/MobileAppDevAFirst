@@ -9,7 +9,6 @@ import jp.ac.meijou.android.s231205158.databinding.ActivityMain4Binding;
 
 public class MainActivity4 extends AppCompatActivity {
     private ActivityMain4Binding binding;
-    private PrefDataStore prefDataStore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

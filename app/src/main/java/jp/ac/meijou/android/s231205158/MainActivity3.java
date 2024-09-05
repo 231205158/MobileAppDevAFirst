@@ -14,7 +14,6 @@ import jp.ac.meijou.android.s231205158.databinding.ActivityMain3Binding;
 
 public class MainActivity3 extends AppCompatActivity {
     private ActivityMain3Binding binding;
-    private PrefDataStore prefDataStore;
     private String text;
 
     @Override
@@ -40,6 +39,11 @@ public class MainActivity3 extends AppCompatActivity {
             intent.setAction(Intent.ACTION_VIEW);
             intent.setData(Uri.parse("https://www.yahoo.co.jp"));
             startActivity(intent);
+        });
+
+        binding.resultButton.setOnClickListener(view -> {
+            var intent = new Intent(this, MainActivity4.class);
+            getActivityResult.launch(intent);
         });
     }
 
